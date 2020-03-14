@@ -48,7 +48,7 @@ class _MapState extends State<Map> {
           compassEnabled: true,
           markers: markers,
           onCameraMove: _onCameraMove,),
-        Positioned (
+       /* Positioned (
           top: 40,
           right: 10,
           child: FloatingActionButton (onPressed: _onAddMarkerPressed,
@@ -57,8 +57,7 @@ class _MapState extends State<Map> {
             child: Icon (Icons.add_location, color: white,),
           ),
 
-        )
-
+        )*/
       ],
     );
   }
